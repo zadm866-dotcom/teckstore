@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تيك ستور</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      background-color: #f5f5f5;
+    }
+
+    /* رأس الصفحة */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #4CAF50;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .search-box input {
+      width: 300px;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+
+    /* الفئات */
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px 30px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .category {
+      background-color: #e0e0e0;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* المنتجات */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px;
+      justify-content: center;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 220px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    .product p {
+      color: #555;
+      margin: 5px 0;
+    }
+
+    .product button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .product button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- رأس الصفحة -->
+  <header>
+    <h1>تيك ستور</h1>
+    <div class="search-box">
+      <input type="text" placeholder="ابحث عن المنتجات...">
+    </div>
+  </header>
+
+  <!-- الفئات -->
+  <section class="categories">
+    <div class="category">أجهزة المطبخ الصغيرة</div>
+    <div class="category">أجهزة العناية</div>
+    <div class="category">السماعات</div>
+    <div class="category">الكيبورد والماوس</div>
+    <div class="category">أجهزة المنزل الصغيرة</div>
+    <div class="category">مباخر</div>
+  </section>
+
+  <!-- المنتجات المقترحة -->
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/220x180.png?text=سماعة" alt="سماعة">
+      <h3>سماعة بلوتوث</h3>
+      <p>السعر: 25$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/220x180.png?text=مبخرة" alt="مبخرة">
+      <h3>مبخرة كهربائية</h3>
+      <p>السعر: 18$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/220x180.png?text=جهاز+عناية" alt="جهاز عناية">
+      <h3>جهاز تنظيف البشرة</h3>
+      <p>السعر: 40$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+  </section>
+
+</body>
+</html>
