@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>متجري الإلكتروني</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      color: #555;
+      margin: 5px 0;
+    }
+    .product button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مرحبا بك في متجري الإلكتروني</h1>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200.png?text=منتج+1" alt="منتج 1">
+      <h3>سماعة بلوتوث</h3>
+      <p>السعر: 25$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200.png?text=منتج+2" alt="منتج 2">
+      <h3>جهاز تنظيف البشرة</h3>
+      <p>السعر: 40$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200.png?text=منتج+3" alt="منتج 3">
+      <h3>ساعة ذكية</h3>
+      <p>السعر: 60$</p>
+      <button>أضف إلى السلة</button>
+    </div>
+  </section>
+
+</body>
+</html>
